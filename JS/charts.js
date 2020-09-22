@@ -87,6 +87,8 @@ function buildCharts(sample) {
 
     // slice top 10 OTU Labels for the hover text
     var slicedLabels = otu_labels.slice(0,10);
+    
+    console.log(slicedLabels);
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
     //  so the otu_ids with the most bacteria are last. 
@@ -99,7 +101,8 @@ function buildCharts(sample) {
         x: topTenEntries,
         y: yticks,
         type: "bar",
-        orientation: 'h'
+        orientation: 'h',
+        text: slicedLabels
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
