@@ -1,0 +1,20 @@
+body {
+
+    color: #000000;
+	background-image: url("../Images/background.jpg");  }
+
+.jumbotron {
+    background-image: url("../Images/Bakterien_1000.jpg"); opacity: 0.75;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+h1
+{
+	font-weight: bold;
+}
+p
+{
+	font-weight:bold;
+	font-family: Arial;
+}
